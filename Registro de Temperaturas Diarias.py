@@ -2,7 +2,6 @@
 # Primera dimensión: Ciudades (3 ciudades)
 # Segunda dimensión: Días de la semana (7 días)
 # Tercera dimensión: Semanas (4 semanas)
-print("Promedio de temperaturas ")
 temperaturas = [
     [   # Ciudad 1
         [   # Semana 1
@@ -121,7 +120,7 @@ temperaturas = [
 ]
 
 # Calcular el promedio de temperaturas para cada ciudad y semana
-ciudades = ["Joya de los Sachas", "Quito", "Cuenca"]
+ciudades = ["Joya de los Sachas", "Cuenca", "Quito"]
 for ciudad_idx, ciudad in enumerate(temperaturas):
     for semana_idx, semana in enumerate(ciudad):
         suma_temperaturas = sum([dia["temp"] for dia in semana])
