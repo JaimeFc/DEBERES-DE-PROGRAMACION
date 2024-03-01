@@ -2,17 +2,17 @@
 # Primera dimensión: Ciudades (3 ciudades)
 # Segunda dimensión: Días de la semana (7 días)
 # Tercera dimensión: Semanas (4 semanas)
-print ("TEMPERATURAS DE LAS CIUDADES")
+print("Promedio de temperaturas ")
 temperaturas = [
-    [   # Joya de los Sachas
+    [   # Ciudad 1
         [   # Semana 1
-            {"day": "Lunes", "temp": 38},
-            {"day": "Martes", "temp": 30},
-            {"day": "Miércoles", "temp": 32},
-            {"day": "Jueves", "temp": 29},
-            {"day": "Viernes", "temp": 25},
-            {"day": "Sábado", "temp": 28},
-            {"day": "Domingo", "temp": 32}
+            {"day": "Lunes", "temp": 78},
+            {"day": "Martes", "temp": 80},
+            {"day": "Miércoles", "temp": 82},
+            {"day": "Jueves", "temp": 79},
+            {"day": "Viernes", "temp": 85},
+            {"day": "Sábado", "temp": 88},
+            {"day": "Domingo", "temp": 92}
         ],
         [   # Semana 2
             {"day": "Lunes", "temp": 76},
@@ -42,7 +42,7 @@ temperaturas = [
             {"day": "Domingo", "temp": 91}
         ]
     ],
-    [   # Quito
+    [   # Ciudad 2
         [   # Semana 1
             {"day": "Lunes", "temp": 62},
             {"day": "Martes", "temp": 64},
@@ -80,7 +80,7 @@ temperaturas = [
             {"day": "Domingo", "temp": 80}
         ]
     ],
-    [   # Cuenca
+    [   # Ciudad 3
         [   # Semana 1
             {"day": "Lunes", "temp": 90},
             {"day": "Martes", "temp": 92},
